@@ -121,4 +121,4 @@ if __name__ == "__main__":
     profiles = get_roommate_profiles()
     matches = compute_all_matches(profiles)
     for match in matches:
-        print(f"Match {match['user1']} & {match['user2']}: {match['score']}% compatible")
+        print(f"Matching {match['user1']} & {match['user2']}: {match['score']}% compatible")
